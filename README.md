@@ -5,6 +5,8 @@ A Sprite Sheet Library for Javascript
 
 Canvas element must be on the page.  This will use the first one found.
 
+Note, your spritesheet must be one long strip for frame to automatically figure out how many frames you have.
+
 ```javascript
 //load your images into native image objects.
 var image = $(<img>).attr({src:'link to your spritesheet'})[0];
